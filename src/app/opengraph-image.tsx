@@ -56,7 +56,7 @@ export default function OpengraphImage() {
             alignItems: "center",
             gap: 28,
             fontSize: 26,
-            color: "#1f6f5c",
+            color: "#e06b2c",
           }}
         >
           <span style={{ display: "flex" }}>

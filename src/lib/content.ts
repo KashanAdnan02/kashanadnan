@@ -21,6 +21,8 @@ export const site = {
   github: "https://github.com/KashanAdnan02",
   githubLegacy: "https://github.com/KashanAdnan",
   linkedin: "https://www.linkedin.com/in/kashan-adnan-dev",
+  /** Profile photo in /public. */
+  portrait: "/profile.jpg",
 } as const;
 
 export const whatsappHref = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
@@ -87,6 +89,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "App Router", "Vercel"],
     live: "https://european-consultant-uyv3.vercel.app",
     repo: "https://github.com/KashanAdnan02/european-consultant",
+    image: "/work/european-consultant.png",
     featured: true,
     study: {
       problem:
@@ -155,6 +158,7 @@ export const projects: Project[] = [
     ],
     live: "https://windforshare.vercel.app",
     repo: "https://github.com/KashanAdnan02/windforshare",
+    image: "/work/windforshare.png",
     featured: true,
     study: {
       problem:
@@ -181,6 +185,7 @@ export const projects: Project[] = [
     stack: ["Python", "faster-whisper", "evdev", "X11 / Wayland", "Debian packaging"],
     live: "https://whisprlinux.vercel.app",
     repo: "https://github.com/KashanAdnan02/whisprlinux",
+    image: "/work/whisperlinux.png",
     featured: true,
     study: {
       problem:
@@ -207,6 +212,7 @@ export const projects: Project[] = [
     stack: ["React", "Vite", "JavaScript", "Game logic"],
     live: "https://ai-chess-game-xi.vercel.app",
     repo: "https://github.com/KashanAdnan02/ai_chess_game",
+    image: "/work/ai-chess.png",
     featured: false,
   },
   {

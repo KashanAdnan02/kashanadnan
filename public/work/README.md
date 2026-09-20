@@ -1,8 +1,8 @@
 # Project screenshots
 
-Drop screenshots here (1600x1000 or wider, PNG/JPG/WebP) and point at them from
-`src/lib/content.ts` via the `image` field, e.g.:
+PNG screenshots for portfolio cards live here. Paths are set on each project
+in `src/lib/content.ts` via the `image` field, e.g.:
 
     image: "/work/european-consultant.png"
 
-Without an image, the card and case study render a typographic placeholder.
+Replace a file anytime to refresh the card thumbnail and case-study hero.
