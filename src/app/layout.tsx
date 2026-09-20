@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { themeScript } from "@/components/ThemeToggle";
 import { site } from "@/lib/content";
+import favicon from "./favicon.jpg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${site.name} — ${site.role}`,
     description,
+  },
+  icons: {
+    icon: [{ url: favicon.src, type: "image/jpeg" }],
+    apple: [{ url: favicon.src }],
   },
   robots: { index: true, follow: true },
 };
